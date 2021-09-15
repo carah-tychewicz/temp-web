@@ -19,3 +19,12 @@ body {
   height: 20rem;
   width: 40rem;
 }
+
+.details {
+  margin-bottom: 8rem;
+}
+
+.icons {
+  font-size: 2em;
+  text-align: center;
+}
