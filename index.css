@@ -1,4 +1,21 @@
 /* Add CSS styles here! */
 body {
   font-family: sans-serif;
+  background-image: url("./img/rbs-wood-grain.jpeg");
+}
+
+.greeting {
+  color: antiquewhite;
+  top: 15%;
+  left: 5%;
+  position: absolute;
+  font-family: 'Urbanist', sans-serif;
+  font-size: 50pt;
+}
+
+.contact-card {
+  background-color: antiquewhite; 
+  margin: 22rem auto;
+  height: 20rem;
+  width: 40rem;
 }
