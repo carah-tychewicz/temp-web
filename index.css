@@ -4,27 +4,66 @@ body {
   background-image: url("./img/rbs-wood-grain.jpeg");
 }
 
-.greeting {
-  color: antiquewhite;
-  top: 15%;
-  left: 5%;
-  position: absolute;
-  font-family: 'Urbanist', sans-serif;
-  font-size: 50pt;
+
+
+@media (min-width: 325px) {
+  .contact-card {
+    background-color: antiquewhite;
+    margin-top: 25rem;
+    margin-bottom: 5rem; 
+    height: auto;
+    width: auto;
+  }
+
+  .greeting {
+    color: antiquewhite;
+    top: 5%;
+    left: 5%;
+    position: absolute;
+    font-family: 'Urbanist', sans-serif;
+    font-size: 50pt;
+  }
+
+  .details {
+    margin-bottom: 2rem;
+  }
+
+  .icons {
+    font-size: 2em;
+    width: 10rem;
+    text-align: justify;
+  }
 }
 
-.contact-card {
-  background-color: antiquewhite; 
-  margin: 22rem auto;
-  height: 20rem;
-  width: 40rem;
+@media (min-width: 768px) {
+  .contact-card {
+    background-color: antiquewhite; 
+    margin: 22rem auto;
+    height: 20rem;
+    width: 40rem;
+  }
+
+  .greeting {
+    color: antiquewhite;
+    top: 15%;
+    left: 5%;
+    position: absolute;
+    font-family: 'Urbanist', sans-serif;
+    font-size: 50pt;
+  }
+
+  .details {
+    margin-bottom: 7rem;
+  }
+
+  .icons {
+    font-size: 2em;
+    text-align: center;
+    width: auto;
+  }
+
 }
 
-.details {
-  margin-bottom: 8rem;
-}
 
-.icons {
-  font-size: 2em;
-  text-align: center;
-}
+
+
