@@ -13,8 +13,22 @@ a:hover {
   color: goldenrod;
 }
 
+code {
+  color: antiquewhite;
+}
+
+li {
+  list-style-type: "📡  ";
+}
+
 
 @media (min-width: 325px) {
+  .dev-notes {
+    position: absolute;
+    top: 55rem;
+    width: auto;
+  }
+
   .contact-card {
     background-color: antiquewhite;
     margin-top: 25rem;
@@ -44,6 +58,15 @@ a:hover {
 }
 
 @media (min-width: 768px) {
+  .dev-notes {
+    position: absolute;
+    left: 88.5rem;
+    top: 22.4rem;
+    width: 20%;
+    outline: 4px double antiquewhite;
+    padding: 8px;
+  }
+
   .contact-card {
     background-color: antiquewhite; 
     margin: 22rem auto;
