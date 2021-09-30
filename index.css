@@ -25,16 +25,20 @@ li {
 @media (min-width: 325px) {
   .dev-notes {
     position: absolute;
-    top: 55rem;
+    top: 90rem;
     width: auto;
   }
 
   .contact-card {
     background-color: antiquewhite;
     margin-top: 25rem;
-    margin-bottom: 5rem; 
+    margin-bottom: 100rem; 
     height: auto;
     width: auto;
+  }
+
+  .profile-pic {
+    
   }
 
   .greeting {
@@ -70,8 +74,17 @@ li {
   .contact-card {
     background-color: antiquewhite; 
     margin: 22rem auto;
-    height: 20rem;
-    width: 40rem;
+    height: auto;
+    width: 46rem;
+  }
+
+  .role {
+    font-weight: 600;
+    font-size: 16pt;
+  }
+
+  .name {
+    font-weight: 600;
   }
 
   .greeting {
@@ -84,13 +97,17 @@ li {
   }
 
   .details {
-    margin-bottom: 6rem;
+    margin-bottom: 1rem;
   }
 
   .icons {
     font-size: 2em;
     text-align: center;
     width: auto;
+  }
+
+  .about-me {
+    font-size: 11pt;
   }
 }
 
