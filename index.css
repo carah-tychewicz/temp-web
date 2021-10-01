@@ -21,13 +21,21 @@ li {
   list-style-type: "📡  ";
 }
 
+.name {
+  font-weight: 600;
+}
+
+.role {
+  font-weight: 600;
+  font-size: 15pt;
+}
+
+.bio {
+  font-size: 13pt;
+}
+
 
 @media (min-width: 325px) {
-  .dev-notes {
-    position: absolute;
-    top: 55rem;
-    width: auto;
-  }
 
   .contact-card {
     background-color: antiquewhite;
@@ -35,6 +43,10 @@ li {
     margin-bottom: 5rem; 
     height: auto;
     width: auto;
+  }
+
+  .profile-pic {
+    margin-bottom: 1rem;;
   }
 
   .greeting {
@@ -48,27 +60,23 @@ li {
 
   .details {
     margin-bottom: 2rem;
+    text-align: center;
   }
 
   .icons {
     font-size: 2em;
     width: 10rem;
-    text-align: justify;
+    text-align: center;
+    margin-left: 24%;
   }
 }
 
 @media (min-width: 768px) {
-  .dev-notes {
-    position: absolute;
-    left: 78.5rem;
-    top: 13rem;
-    width: 20%;
-    outline: 4px double antiquewhite;
-    padding: 8px;
-  }
   
   .profile-pic {
     float: right;
+    margin-left: 0.75rem;
+    margin-bottom: 0;
   }
 
   
@@ -76,7 +84,7 @@ li {
     background-color: antiquewhite; 
     margin: 22rem auto;
     height: auto;
-    width: 40rem;
+    width: 42rem;
   }
 
   .greeting {
@@ -89,28 +97,14 @@ li {
   }
 
   .details {
-    width: 100%;
+    width: 40.70rem;
+    text-align: left;
   }
 
   .icons {
     font-size: 2em;
     text-align: center;
     width: auto;
+    margin-left: 0;
   }
 }
-
-@media (min-width: 1800px) {
-  .dev-notes {
-    position: absolute;
-    left: 89.5rem;
-    top: 13rem;
-    width: 20%;
-    outline: 4px double antiquewhite;
-    padding: 8px;
-  }
-}
-
-
-
-
-
