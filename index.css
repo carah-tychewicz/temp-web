@@ -66,11 +66,16 @@ li {
     outline: 4px double antiquewhite;
     padding: 8px;
   }
+  
+  .profile-pic {
+    float: right;
+  }
 
+  
   .contact-card {
     background-color: antiquewhite; 
     margin: 22rem auto;
-    height: 20rem;
+    height: auto;
     width: 40rem;
   }
 
@@ -84,7 +89,7 @@ li {
   }
 
   .details {
-    margin-bottom: 6rem;
+    width: 100%;
   }
 
   .icons {
