@@ -40,7 +40,12 @@ li {
 
 
 @media (min-width: 325px) {
-
+  body {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+  }
   .contact-card {
     background-color: antiquewhite;
     margin-top: 25rem;
