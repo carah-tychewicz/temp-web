@@ -2,6 +2,10 @@
 body {
   font-family: sans-serif;
   background-image: url("./img/rbs-wood-grain.jpeg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
 }
 
 a {
@@ -21,13 +25,21 @@ li {
   list-style-type: "📡  ";
 }
 
+.name {
+  font-weight: 600;
+}
+
+.role {
+  font-weight: 600;
+  font-size: 15pt;
+}
+
+.bio {
+  font-size: 13pt;
+}
+
 
 @media (min-width: 325px) {
-  .dev-notes {
-    position: absolute;
-    top: 55rem;
-    width: auto;
-  }
 
   .contact-card {
     background-color: antiquewhite;
@@ -35,6 +47,10 @@ li {
     margin-bottom: 5rem; 
     height: auto;
     width: auto;
+  }
+
+  .profile-pic {
+    margin-bottom: 1rem;;
   }
 
   .greeting {
@@ -48,30 +64,32 @@ li {
 
   .details {
     margin-bottom: 2rem;
+    text-align: center;
   }
 
   .icons {
     font-size: 2em;
     width: 10rem;
-    text-align: justify;
+    text-align: center;
+    margin-left: 24%;
+    margin-right: 0;
   }
 }
 
 @media (min-width: 768px) {
-  .dev-notes {
-    position: absolute;
-    left: 78.5rem;
-    top: 13rem;
-    width: 20%;
-    outline: 4px double antiquewhite;
-    padding: 8px;
+  
+  .profile-pic {
+    float: right;
+    margin-left: 0.75rem;
+    margin-bottom: 0;
   }
 
+  
   .contact-card {
     background-color: antiquewhite; 
     margin: 22rem auto;
-    height: 20rem;
-    width: 40rem;
+    height: auto;
+    width: 42rem;
   }
 
   .greeting {
@@ -84,28 +102,15 @@ li {
   }
 
   .details {
-    margin-bottom: 6rem;
+    width: 40.70rem;
+    text-align: left;
   }
 
   .icons {
     font-size: 2em;
     text-align: center;
     width: auto;
+    margin-left: 0;
+    margin-right: 1rem;
   }
 }
-
-@media (min-width: 1800px) {
-  .dev-notes {
-    position: absolute;
-    left: 89.5rem;
-    top: 13rem;
-    width: 20%;
-    outline: 4px double antiquewhite;
-    padding: 8px;
-  }
-}
-
-
-
-
-
