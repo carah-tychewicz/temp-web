@@ -25,8 +25,17 @@ li {
 @media (min-width: 325px) {
   .dev-notes {
     position: absolute;
-    top: 90rem;
+    top: 92rem;
     width: auto;
+  }
+
+  .role {
+    font-weight: 600;
+    font-size: 16pt;
+  }
+
+  .name {
+    font-weight: 600;
   }
 
   .contact-card {
@@ -38,7 +47,14 @@ li {
   }
 
   .profile-pic {
-    
+    position: absolute;
+    top: 26rem;
+    left: 19%;
+  }
+
+  .about-me {
+    font-size: 11pt;
+    width: 100%;
   }
 
   .greeting {
@@ -51,13 +67,17 @@ li {
   }
 
   .details {
+    margin-top: 18rem;
     margin-bottom: 2rem;
+    width: 30rem;
+    text-align: center;
   }
 
   .icons {
     font-size: 2em;
-    width: 10rem;
-    text-align: justify;
+    width: 12rem;
+    text-align: center;
+    margin-left: 3.5rem;
   }
 }
 
