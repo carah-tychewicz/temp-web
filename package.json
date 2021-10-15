@@ -8,6 +8,7 @@
     "snowpack": "^3.3.7"
   },
   "dependencies": {
-    "bootstrap": "^5.1.1"
+    "bootstrap": "^5.1.1",
+    "three": "^0.133.1"
   }
 }
